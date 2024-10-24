@@ -1,0 +1,327 @@
+@media (max-width: 1100px) {
+    #page1 h1 {
+        font-size: 85px;
+        width: 70%;
+
+        line-height: 90px;
+    }
+
+    #page1 h1::before {
+        top: -4px;
+        left: -9px;
+    }
+
+    #nav {
+        padding: 0px 62px;
+    }
+
+    #page3 {
+        min-height: 150vh;
+        /* flex-direction: column; */
+        padding: 0;
+    }
+
+    #page3 img {
+        border-radius: 10px;
+        object-fit: cover;
+        height: 42vw;
+        width: 45vw;
+        margin-top: -20%;
+    }
+
+    #page3-in {
+        /* order: 1; */
+        position: absolute;
+        width: 100%;
+        bottom: 10%;
+    }
+
+    #page3-in p {
+        margin-top: 25px;
+    }
+
+    .overlay h4 {
+        font-size: 31px;
+    }
+
+    .overlay {
+        padding-top: 15px;
+        padding-left: 15px;
+    }
+
+    .images {
+        padding: 0;
+    }
+
+    #page4 {
+        padding: 0px 0px;
+    }
+
+    #page4 h1 {
+        font-size: 5.8vw;
+        top: 0%;
+    }
+
+    .div {
+        width: 29%;
+    }
+
+    .div h4 {
+        font-size: 32px;
+    }
+
+}
+
+@media (max-width: 850px) {
+    #page1 h1 {
+        font-size: 50px;
+        width: auto;
+        line-height: 51px;
+    }
+
+    #page1 h1::before {
+        top: -4px;
+        left: -5px;
+    }
+
+    #page1 h2 {
+        font-size: 24px;
+        margin-top: 40px;
+        margin-bottom: 15px;
+    }
+
+    #page1 p {
+        font-size: 22px;
+        padding: 2px 0px;
+        line-height: 28px;
+        width: 58%;
+    }
+
+    #nav h4 {
+        display: none;
+    }
+
+    #scroller-in h4 {
+        font-size: 100px;
+    }
+
+    #page3-in {
+        bottom: 12%;
+    }
+
+    .images {
+        width: 100%;
+        height: 155vh;
+        flex-direction: column;
+    }
+
+    .img {
+        width: 90%;
+        height: 46vh;
+        position: relative;
+    }
+
+    .img h3 {
+        top: 80%;
+        left: 36%;
+        margin: 0;
+    }
+
+    .green h4 {
+        font-size: 27px;
+        width: 49%;
+    }
+
+    .para p {
+        font-size: 23px;
+        line-height: 40px;
+        width: 50%;
+    }
+
+    #col1 {
+        top: 12%;
+        left: 13%;
+    }
+
+    #col2 {
+        bottom: 14%;
+        right: 13%;
+    }
+
+
+    #page4 {
+        height: 100vh;
+        gap: 45px;
+        margin-bottom: 75px;
+        flex-direction: column;
+    }
+
+    #page4 h1 {
+        font-size: 5.1vw;
+        top: 1%;
+    }
+
+    .div {
+        width: 85%;
+        top: 6%;
+    }
+
+}
+
+@media (max-width: 525px) {
+
+    #page1 h1 {
+        font-size: 34px;
+
+    }
+
+    #page1 h1::before {
+        top: -4px;
+        left: -5px;
+        -webkit-text-stroke: 1px rgba(146, 189, 29, 1);
+    }
+
+    #page1 p {
+        font-size: 17px;
+        width: 70%;
+        padding: 2px 0px;
+        line-height: 25px;
+        /* text-align: center; */
+    }
+
+    #page1 h2 {
+        font-size: 20px;
+        margin-inline: auto;
+        text-align: center;
+    }
+
+    #page1 #arrow {
+        bottom: 0%;
+        left: -5%;
+    }
+
+    #scroller-in h4 {
+        font-size: 56px;
+    }
+
+    #page3-in h3 {
+        font-size: 30px;
+
+    }
+
+    #page3-in p {
+        font-size: 16px;
+
+    }
+
+    #page3 {
+
+        height: 180vh;
+    }
+
+    #page3-in {
+
+        bottom: 15%;
+    }
+
+    .overlay h4 {
+        margin-bottom: 4px;
+        font-size: 22px;
+    }
+
+    .overlay p {
+
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .img h3 {
+        left: 13%;
+    }
+
+    .green h4 {
+        line-height: 39px;
+        font-size: 22px;
+        width: 60%;
+
+    }
+
+    .para p {
+        font-size: 17px;
+        line-height: 36px;
+        width: 50%;
+    }
+
+    #col2 {
+        bottom: 14%;
+        right: 10%;
+    }
+
+    #col1 {
+        top: 11%;
+        left: 13%;
+    }
+
+    .para img {
+
+        height: 45px;
+    }
+
+}
+
+@media (max-width: 350px) {
+
+    #page1 h1 {
+        font-size: 25px;
+        /* width: auto; */
+        /* position: fixed; */
+        top: 50px;
+    }
+
+    #page1 h1::before {
+        top: -4px;
+        left: -5px;
+        -webkit-text-stroke: 1px rgba(146, 189, 29, 1);
+    }
+
+    #page1 p {
+        font-size: 17px;
+        line-height: 25px;
+        width: 90%;
+    }
+
+    #page1 h2 {
+        font-size: 15px;
+        width: 70%;
+    }
+
+    #page1 #arrow {
+
+        bottom: 0%;
+    }
+
+    .para p {
+        font-size: 14px;
+        line-height: 35px;
+        
+    }
+
+    #col2 {
+        bottom: 14%;
+        right: 10%;
+    }
+
+    .para img {
+        height: 35px;
+    }
+
+    #col1 {
+        top: 11%;
+        left: 9%;
+    }
+
+
+
+
+
+}

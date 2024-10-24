@@ -3,8 +3,8 @@ var blur = document.querySelector("#cursor-blur")
 document.addEventListener("mousemove", function (dets) {
     crsr.style.left = dets.x + "px"
     crsr.style.top = dets.y + "px"
-    blur.style.left = dets.x - 150 + "px"
-    blur.style.top = dets.y - 150 + "px"
+    blur.style.left = dets.x - 100 + "px"
+    blur.style.top = dets.y - 100 + "px"
 })
 
 var all = document.querySelectorAll("#nav h4")
@@ -43,10 +43,6 @@ are.forEach(function(game){
 
 }
 )
-// are.forEach(function(game){
-   
-// })
-
 
 var img = document.querySelectorAll("#nav img")
 img.forEach(function (elema) {
@@ -56,6 +52,7 @@ img.forEach(function (elema) {
         crsr.style.border = "0.3px solid #FFF"
     })
 })
+
 img.forEach(function (elema) {
     elema.addEventListener("mouseleave", function () {
         crsr.style.scale = 1
@@ -72,7 +69,7 @@ gsap.to("#nav", {
         trigger: "#nav",
         scroller: "body",
         // markers: true,
-        start: "top -10%",
+        start: "top -5%",
         end: "top -10%",
         scrub: true,
     }
@@ -100,10 +97,10 @@ gsap.from("#page3 img,#page3-in", {
         trigger: "#page3",
         scroller: "body",
         // markers: true,
-        start: " top 60%",
-        end: "top 55%",
+        start: " top 20%",
+        end: "top 15%",
         scrub: 3,
-
+ 
     }
 
 })
